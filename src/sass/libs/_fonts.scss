@@ -2,6 +2,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 500';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-500.eot');
 	src: local('../fonts/MuseoSansCyrl-500'),
 		url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
@@ -13,6 +14,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 300';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-300Italic.eot');
 	src: local('../fonts/MuseoSansCyrl-300Italic'),
 		url('../fonts/MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'),
@@ -46,6 +48,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 700';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-700.eot');
 	src: local('../fonts/MuseoSansCyrl-700'),
 		url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
@@ -79,6 +82,7 @@
 
 @font-face {
 	font-family: '../fonts/Museo Sans Cyrl 100';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-100.eot');
 	src: local('../fonts/MuseoSansCyrl-100'),
 		url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
@@ -90,6 +94,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 100';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-100Italic.eot');
 	src: local('../fonts/MuseoSansCyrl-100Italic'),
 		url('../fonts/MuseoSansCyrl-100Italic.eot?#iefix') format('embedded-opentype'),
@@ -101,6 +106,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 900';
+	font-display: swap;
 	src: url('../fonts/MuseoSansCyrl-900Italic.eot');
 	src: local('../fonts/Museo Sans Cyrl 900 Italic'), local('MuseoSansCyrl-900Italic'),
 		url('../fonts/MuseoSansCyrl-900Italic.eot?#iefix') format('embedded-opentype'),
