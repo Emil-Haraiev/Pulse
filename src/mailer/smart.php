@@ -14,13 +14,13 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'restartmanh@gmail.com';                 // Наш логин
-$mail->Password = 'ggwp123456789';                           // Наш пароль от ящика
+$mail->Username = '';                 // Наш логин
+$mail->Password = '';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 <<<<<<< HEAD
-$mail->setFrom('restartmanh@gmail.com', 'Pulse');   // От кого письмо 
+$mail->setFrom('', 'Pulse');   // От кого письмо 
 $mail->addAddress('pimok56273@dkt1.com');     // Add a recipient
 =======
 $mail->setFrom('', 'Pulse');   // От кого письмо 
