@@ -17,6 +17,7 @@
         img {
             width: 31px;
             height: 50px;
+            object-fit: cover;
         }
 
     }
@@ -24,4 +25,7 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots li button { 
+        font-size: 0; 
+     } 
 }
