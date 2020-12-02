@@ -65,6 +65,7 @@
                 font-size: 27px;
             }
             &__tab {
+                
                 width: 170px;
                 font-size: 14px;
             }
@@ -147,7 +148,14 @@
         
 
     }
+    @media (max-width: 767px){
+        .header{
+            &__official{
+                display: none;
+            }
+        }
 
+    }
     
         @media (max-width: 575px){
             .header{
@@ -208,9 +216,13 @@
                     font-size: 27px;
                 }
                 &__tab {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
                     width: 120px;
                     font-size: 11px;
                     height: 43px;
+                    
                 }
                
             }
@@ -229,7 +241,9 @@
                &__subtitle{
                    margin-top: 25px;
                }
-              
+               &__descr{
+               width: 450px;
+               }
            }
         }
     
